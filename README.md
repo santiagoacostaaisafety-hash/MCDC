@@ -1,7 +1,7 @@
 # MCDC – Double Celestial Cones Model  
-Modelo de Conos Dobles Celestes  
 Santiago Acosta · Córdoba, Argentina · Independent Researcher  
-Axiomatic AI Safety · @ImTheArquitect  
+Axiomatic AI Safety · @ImTheArquitect
+---
 ![MCDC-Grafica](https://github.com/user-attachments/assets/6e4f8cf9-f9e4-4876-afee-0ac7e23605e0)
 ## What MCDC is
 MCDC is an original astronomical model built from real long-exposure photographs of the night sky, observed from the southern hemisphere (Argentina).  
@@ -29,6 +29,7 @@ I do the same thing but with the universe: I use those fixed points and the spin
 - A concrete measurement of the universe (not just "abstract").  
 - The idea that certain problems (Clay type) are unsolvable **within** these physical limits: the universe itself does not have enough time/energy to test all possible combinations.  
 The same logic applies to any system:
+
 | Domain                | Hidden fixed point                                        | Dynamic system                        |
 |------------------------|----------------------------------------------------------|----------------------------------------|
 | Night sky         | Celestial poles (north / south)                             | Stars rotating (CED)                |
