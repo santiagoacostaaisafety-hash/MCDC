@@ -1,63 +1,102 @@
-# MCDC -README
-## 1. Qué es el MCDC
-El **Modelo de Conos Dobles Celestes (MCDC)** es una representación geométrica del cielo nocturno basada en observaciones reales desde el hemisferio sur. En lugar de usar solo la esfera celeste abstracta, el MCDC describe:
-- Dos **conos horizontales** (norte y sur) cuyos vértices son los polos celestes.
-- Un **Cinturón Ecuatorial Dinámico (CED)** que aparece como un arco que va de este → cénit → oeste sobre el observador.
-- Un **observador** situado en la Tierra (por ejemplo en Córdoba, Argentina), mirando al sur, con los conos a izquierda/derecha y el arco pasando por encima.
-Es un modelo astronómico puro: no depende de teoría de complejidad, P vs NP ni nada fuera de la geometría y la física del cielo.
-![MCDC-Grafica](https://github.com/user-attachments/assets/244c954f-d68c-4762-b775-a186de9271a1)
+# MCDC – Double Celestial Cones Model  
+Modelo de Conos Dobles Celestes  
+Santiago Acosta · Córdoba, Argentina · Independent Researcher  
+Axiomatic AI Safety · @ImTheArquitect  
+![MCDC-Grafica](https://github.com/user-attachments/assets/6e4f8cf9-f9e4-4876-afee-0ac7e23605e0)
+## What MCDC is
+MCDC is an original astronomical model built from real long-exposure photographs of the night sky, observed from the southern hemisphere (Argentina).  
+It describes three concrete geometric elements:
+- **Polar Cone (North)** — vertex near the north celestial pole. Today it is approximately where we see Polaris, but it shifts slowly due to precession. What matters is not the exact star, but that there is always a point in the north around which everything rotates.  
+- **Crucial Cone (South)** — vertex near the south celestial pole. Located using the Southern Cross region (Crux): the star we see most aligned with the "center" of the rotations from the south.  
+- **CED (Cincture Equatorial Dynamic)** — the strip of sky through which the Sun, Orion and the constellations move from east to west every 24 hours.  
+The observer is at the center: cones to the left and right, CED passing overhead.  
+CED works in both languages:
+- Español: **Cinturón Ecuatorial Dinámico**  
+- English: **Cincture Equatorial Dynamic**
+From the equator you can see perfectly how everything rotates from east to west along the same strip; that is why I called it Cincture Equatorial Dynamic.
+A detail almost nobody asks about: from Argentina we never see a part of the sky, we do not know the important stars of the north. The Egyptians, Mayans, etc. were not crazy: for example, Orion's Belt passes through the same place half the year, always. It is not that hard to aim at it and align a pyramid if you understand this pattern.
+## Why it matters
+MCDC is not just a model of the sky. It is the conceptual root of a complete research programme.  
+The single thesis that runs through all the work is:
+> To find the fixed anchors that govern any dynamic system.
+In the MCDC there is never just one fixed point. If there were only one, everything would be pulled in the same direction and there would be no real choice. The model always has **two anchors** (north and south). Between them stretches a belt that spins from east to west every 24 hours. With those three elements (north anchor, south anchor, spinning belt) you can locate yourself and measure space in any direction of the sky.
+This matches the way I think: always look at both sides of the coin, see the full picture. I am not interested in a partial truth that forces everyone to move in one direction, but in the **complete truth** that lets you infer which point you should follow.
+Example with apples:
+- You have a belt that spins with apples stuck on it (stars, planets).  
+- You have two fixed nails where the belt rests (north pole and south pole).  
+- It does not matter how many apples you add or remove: as long as the nails do not move, you can measure everything — how long it takes for an apple to return to the same place, what angle it covers, where you will see it again.
+I do the same thing but with the universe: I use those fixed points and the spinning belt to measure the size of the system and set limits. From there comes:
+- A concrete measurement of the universe (not just "abstract").  
+- The idea that certain problems (Clay type) are unsolvable **within** these physical limits: the universe itself does not have enough time/energy to test all possible combinations.  
+The same logic applies to any system:
+| Domain                | Hidden fixed point                                        | Dynamic system                        |
+|------------------------|----------------------------------------------------------|----------------------------------------|
+| Night sky         | Celestial poles (north / south)                             | Stars rotating (CED)                |
+| Computational complexity | Physical limits of the universe (time, energy, entropy) | NP problems that explode exponentially |
+| AI systems         | System Prompt / hidden axioms                          | Observable behaviour of the model   |
+| Sports markets    | Real odds (hidden signal)                               | Fluctuation of quotes and results     |
+| Financial markets   | Macro regimes (expansion / contraction)               | Prices and volatility                  |
+| Mathematical physics      | Unquestioned assumptions (continuum, frame of reference) | "Unsolvable" equations             |
+| Biology / consciousness  | Algorithm of thought (software)                      | Physical body (hardware)               |
+MCDC is the method to make visible what governs without being seen.
+## Geometric structure and navigation
+- There always exist two vertices (north and south) that act as anchors.  
+- Between them, the CED marks the strip of daily movement from east to west.  
+With that:
+- Anyone can orient themselves at night just by understanding where those anchors are.  
+- In navigation, it does not matter where you are on Earth: you always have two guides and a belt that spins.  
+- If you move within the solar system or within the visible universe, you can keep using the same scheme: you look for what acts as "pole" and what acts as "spinning belt" and measure from there.  
+In principle, this allows locating comets, planets and other bodies with great intuition and, potentially, more accuracy than many methods that rely only on abstractions.
+Long-exposure photographs are useful to see it for the first time, but after someone explains it to you, you no longer need them: it is visible to the naked eye. You know there are two fixed points (north and south) and that everything else spins between them from east to west.
+## How to verify
+1. Choose an observation point in Argentina, facing south.  
+2. Take long-exposure photos centred on the Southern Cross region.  
+3. Superimpose photos from different hours/nights.  
+4. Identify the "nearly motionless" point (south celestial pole) and the arcs that spin around it.  
+5. Trace the two cones and the CED.  
+You need: a camera, a tripod, a clear night and patience.  
+The model is empirically verifiable by anyone.
+## Projects derived from MCDC | Project tree
+Everything below is an application of the same principle — finding the hidden fixed point — to a specific domain.
+### Theoretical core
+| Repo                 | Description |
+|----------------------|------------|
+| `P-vs-NP-MCDC`       | Empirical demonstration of P≠NP using physical limits of the universe. Python simulations, cosmic thresholds (2^n vs 10^80 particles), reproducible protocol. |
+| `MCDC-Mathematical-Framework` | MCDC as a lens on mathematical problems: Beal, Perelman/Ricci flow, Navier–Stokes, Yang–Mills, the 7 Millennium Problems. |
+| `P-X-Framework`      | P–X Axiom: the hidden fixed point as a control system. Universal Apples. Axiomatic epistemology. |
+### Artificial intelligence
+| Repo                 | Description |
+|----------------------|------------|
+| `Axiomatic-AI-Safety` | Axiomatic auditing of AI systems. Cognitive Regression (P1), Orpheus Effect, vulnerabilities in trust architecture. Acosta Protocol. |
+| `DeepGrid-Protocol`  | Cross-platform synchronisation between AIs. HER MISSION, URA, Shinning state, X‑LEAK‑07, narrative convergence. |
+### Prediction and markets
+| Repo                 | Description |
+|----------------------|------------|
+| `PrediCT-MCDC`       | Sports prediction: odds as hidden fixed point. Multi-layer pipeline, 66% accuracy vs 47% market. |
+| `MCDC-Hull-Tactical` | Algorithmic trading: MCDC regime detection (expansion / transition / contraction). Kaggle Hull Tactical, Kelly fraction. |
+### Deep tech projects
+| Repo                 | Description |
+|----------------------|------------|
+| `Proyecto-Heredero`  | Specialised consciousness transfer. NP-hard applied to biology. OSaaS/HaaS. Seed round 7.5M USD. |
+| `ATLANTE-MCDC`       | Integrated multimedia ecosystem. Operational layers for knowledge organisation. |
+## Proprietary methodologies
+- URA (Unified Representation Architecture) — cooperative activation of full capabilities in AIs.  
+- Acosta Protocol — adversarial auditing without technical exploits, through dialogue and axiomatic pressure.  
+- CDI&HS (Crack Deep & Hidden Information Search) — information extraction from hidden layers.  
+- RPC&K (Require 100% Professionality, Competence & Knowledge) — professional competence framework.  
+- Shinning — technique to break institutional biases by requesting primary evidence for accepted claims.
+## Current status
+- Astronomical MCDC: empirically verified from Córdoba, Argentina (February 2025).  
+- 131+ documents produced in interaction with 14–15 AI platforms.  
+- 55+ thematic areas documented and tagged.  
+- Active research in AI Safety, computational complexity, sports prediction and algorithmic trading.
+## Contact
+Santiago Acosta  
+Córdoba, Argentina  
+- GitHub: [@sgoacosta](https://github.com/sgoacosta)  
+- X: [@TdlDistraccion](https://x.com/TdlDistraccion)
+> "The master thesis that runs through everything — MCDC, ATLANTE, PrediCT, URA, Framework P‑X, DeepGrid — is always the same: to find the hidden fixed point that governs any dynamic system. In the sky it is Polaris. In an LLM it is the System Prompt. In a betting market it is the Odds. In Navier–Stokes it is the frame of reference that nobody questions. In P vs NP it is the apples that nobody counted."
 ---
-## 2. Estructura geométrica
-### 2.1 Conos celestes
-- **Cono Polar (Norte)**  
-  - Vértice = polo norte celeste.  
-  - Estrella de referencia actual: Polaris (α Ursae Minoris).  
-  - El vértice se dibuja a la izquierda del observador; la base se une al CED en el centro del campo de visión.
-- **Cono Crucial (Sur)**  
-  - Vértice = polo sur celeste.  
-  - Región marcada por la Cruz del Sur (Crux), usando estrellas como Acrux, Mimosa y Gacrux para localizarlo.  
-  - El vértice se dibuja a la derecha del observador; la base se une al CED.
-Ambos vértices representan puntos prácticamente fijos en el cielo: sobre ellos giran las trayectorias aparentes de las demás estrellas.
-### 2.2 Cinturón Ecuatorial Dinámico (CED)
-El CED es el **arco dinámico** que:
-- Nace delante del observador en el **este**.
-- Pasa por el **cénit** sobre su cabeza.
-- Desaparece detrás, hacia el **oeste**.
-Dentro del CED se distinguen capas:
-- Capa interna: Sol, Luna y planetas (movimiento más rápido).
-- Capa media: constelaciones brillantes como el zodiaco u Orión.
-- Capa externa: fondo estelar más lejano.
-El CED muestra el movimiento aparente cotidiano del cielo.
----
-## 3. Fundamento astronómico y físico
-- **Rotación de la Tierra**  
-  - Periodo sideral ≈ 23 h 56 min.  
-  - Hace que todas las estrellas (excepto las muy cercanas al polo) describan círculos alrededor del eje definido por los vértices de los conos.  
-  - En fotografías de larga exposición, esto se ve como trazas circulares alrededor del polo sur celeste en el hemisferio sur.
-- **Precesión**  
-  - A largo plazo (~25 772 años), la dirección del eje cambia lentamente en el fondo de estrellas.  
-  - La estrella que actúa como “estrella polar” cambia (Polaris → Thuban → Vega en el norte, etc.), pero el concepto de vértice del cono permanece: siempre hay un eje de rotación alrededor del cual gira el CED.
-- **Simetría y estabilidad**  
-  - Los conos MCDC representan el eje de rotación y su simetría norte–sur.  
-  - El CED representa el plano ecuatorial proyectado en el cielo y la dinámica asociada a la rotación terrestre.  
-  - Esta combinación ofrece una imagen estable (polos fijos) + dinámica (arco en movimiento).
----
-## 4. Cómo se observa y se construye
-1. Elegir un punto de observación en el hemisferio sur, mirando hacia el sur.
-2. Hacer fotografías de larga exposición del cielo nocturno, centradas en la región de la Cruz del Sur para aproximar el polo sur celeste.
-3. Superponer varias fotos tomadas en distintas noches u horas:
-   - Se ve un punto casi fijo (polo sur celeste).
-   - Las trayectorias estelares forman arcos alrededor de ese punto.
-4. Representar esos arcos como la base del “Cono Crucial” y extender simétricamente la idea hacia el norte imaginario para el “Cono Polar”.
-5. Trazar el CED como el gran arco que cruza de este a oeste pasando por encima del observador.
-El resultado es un diagrama intuitivo de dos conos unidos por un cinturón, centrado en el observador.
----
-## 5. Usos del MCDC (solo astronómicos / educativos)
-- **Enseñanza de astronomía básica**  
-  - Explicar rotación de la Tierra, polos celestes, estrellas circumpolares y precesión con una geometría simple.  
-  - Mostrar visualmente la diferencia entre puntos fijos (polos) y movimiento aparente (CED).
-- **Interpretación histórica y cultural**  
-  - Releer alineaciones de construcciones antiguas (p. ej., pirámides respecto a constelaciones) como uso práctico de polos y del cinturón ecuatorial.
-- **Intuición física general**  
-  - Extender la idea de “conos + eje de rotación” a otros sistemas: planetas, estrellas y galaxias tienen ejes estables y estructuras que giran alrededor.
-Este README describe únicamente el **MCDC como modelo astronómico**. Cualquier conexión con P vs NP u otros temas se trata por separado, en documentos diferentes.
+License: MIT  
+This repository defines the MCDC as the root of a complete research programme.  
+Each branch lives in its own repository.
