@@ -43,6 +43,8 @@ You need: camera · clear night · patience · several hours of observation
 The model is empirically verifiable by anyone and reproducible with public software such as Stellarium.
 ## Projects derived from MCDC | Project tree
 Everything below is an application of the same principle — finding the hidden fixed point — to a specific domain.
+## Additional documentation
+For the complete mathematical formalization, see the [Mathematical Annex](MATHEMATICAL_ANNEX.md).
 ### Theoretical core
 | Repo                 | Description |
 |----------------------|------------|
