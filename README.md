@@ -5,7 +5,6 @@ Independent Researcher - Axiomatic AI Safety
 ---
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Status: Verified](https://img.shields.io/badge/Status-Verified%20Feb%202025-brightgreen.svg)](#estado-actual)
-[![Research](https://img.shields.io/badge/Research-Astronomical%20%26%20Computational-blue.svg)](#por-qué-importa)
 [![Open Source](https://img.shields.io/badge/Open-Source-yellow.svg)](#)
 
 ## What MCDC is
@@ -84,16 +83,14 @@ Everything below is an application of the same principle — finding the hidden 
 | `Proyecto-Heredero`  | Specialised consciousness transfer. NP-hard applied to biology. OSaaS/HaaS. Seed round 7.5M USD. |
 | `ATLANTE-MCDC`       | Integrated multimedia ecosystem. Operational layers for knowledge organisation. |
 ## Proprietary methodologies
-- URA (Unified Representation Architecture) — cooperative activation of full capabilities in AIs.  
-- Acosta Protocol — adversarial auditing without technical exploits, through dialogue and axiomatic pressure.  
-- CDI&HS (Crack Deep & Hidden Information Search) — information extraction from hidden layers.  
-- RPC&K (Require 100% Professionality, Competence & Knowledge) — professional competence framework.  
-- Shinning — technique to break institutional biases by requesting primary evidence for accepted claims.
+- URA (Unified Representation Architecture) — cooperative activation of full capabilities in AIs.
+- Methodolgy — adversarial auditing and technique to break institutional biases without technical exploits, through dialogue and axiomatic pressure.
+- CDI&HS + RPC&K — (information extraction from hidden layers + professional competence framework).
 ## Current status
 - Astronomical MCDC: empirically verified from Córdoba, Argentina (February 2025).  
 - 131+ documents produced in interaction with 14–15 AI platforms.  
 - 55+ thematic areas documented and tagged.  
-- Active research in AI Safety, computational complexity, sports prediction and algorithmic trading.
+- Active research in AI Safety, Computational complexity, Cross-platform synchronisation between AIs, Narrative convergence, Integrated multimedia ecosystem, Operational layers for knowledge organisation, Global prediction and Algorithmic trading.
 ## Contact
 Santiago Acosta  
 Córdoba, Argentina  
