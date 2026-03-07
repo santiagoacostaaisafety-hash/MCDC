@@ -14,7 +14,7 @@ A detail almost nobody asks about: from Argentina we never see a part of the sky
 ## Why it matters
 MCDC is not just a model of the sky. It is the conceptual root of a complete research programme.  
 The single thesis that runs through all the work is:
-> To find the fixed anchors that govern any dynamic system.
+> To find the fixed anchors that govern any dynamic system.  
 From there comes:
 - A concrete measurement of the universe (not just "abstract").  
 - The idea that certain problems (Clay type) are unsolvable **within** these physical limits: the universe itself does not have enough time/energy to test all possible combinations.  
