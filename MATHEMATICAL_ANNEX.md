@@ -1,5 +1,5 @@
 # Mathematical Annex – MCDC 2.0
-This document summarizes the **geometric** and mathematical formalization of the Double Celestial Cones Model (MCDC 2.0) for technical review by the community.
+The MCDC 2.0 model is introduced in the main README as an intuitive geometric representation of the celestial sphere. This annex focuses exclusively on its mathematical structure.
 
 ## Purpose of this annex
 - Present the equations and assumptions of the model.
