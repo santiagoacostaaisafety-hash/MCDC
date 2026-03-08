@@ -6,16 +6,16 @@
 [![Usage & Credit](https://img.shields.io/badge/Usage-%26%20Credit-orange.svg)](#usage-and-credit)
 
 ## What MCDC is
-MCDC is an original astronomical model built from real long-exposure photographs of the night sky, observed from the southern hemisphere (Argentina).  
+THE DOUBLE CELESTIAL CONES MODEL Physical Structure: The model consists of two symmetric cones joined at the Celestial Equator. MCDC is an original astronomical model built from real long-exposure photographs of the night sky, observed from the southern hemisphere (Argentina).  
 It describes three concrete geometric elements:
-- **Polar Cone (North)** — vertex near the north celestial pole. Today it is approximately where we see Polaris, but it shifts slowly due to precession. What matters is not the exact star, but that there is always a point in the north around which everything rotates.  
-- **Crucial Cone (South)** — vertex near the south celestial pole. Today it is approximately where we see Gaia DR2 5188149519510780288, located using the Southern Cross region (Crux): the star we see most aligned with the "center" of the rotations from the south.  
-- **CED (Cincture Equatorial Dynamic)** — the strip of sky through which the Sun, Orion and the constellations rotate from east to west; that is why I called it Cincture Equatorial Dynamic.  
-A detail almost nobody asks about: from Argentina we never see a part of the sky, we do not know the important stars of the north. The Egyptians, Mayans, etc., were not "mystical geniuses" nor did they use impossible technology: for example, Orion's Belt passes through the same place half the year, always. It is not that hard to aim at it and align a pyramid if you understand this pattern.
+- **Polar Cone (North)** — the north vertex today it is approximately where we see Polaris, but it shifts slowly due to precession. What matters is not the exact star, but that there is always a point in the north around which everything rotates.  
+- **Crucial Cone (South)** — the south vertex today it is approximately where we see Gaia DR2 5188149519510780288, located using the Southern Cross region (Crux): the star we see most aligned with the "center" of the rotations from the south.  
+- **CED (Cincture Equatorial Dynamic)** — is the center, where the bases of the cones meet, the strip of sky through which the Sun, Orion and the constellations rotate from east to west; that is why I called it Cincture Equatorial Dynamic.   
+Every rotating system requires at least one fixed reference point for measurement. The MCDC identifies these cosmic reference points as computational anchors.   
+
 ## Why it matters
 MCDC is not just a model of the sky. It is the conceptual root of a complete research programme.  
 The single thesis that runs through all the work is:  
-
 **To find the fixed anchors that govern any dynamic system.**  
 
 From there comes:
@@ -92,3 +92,5 @@ This is the original definition of the MCDC framework. It is released as open-so
 License: MIT  
 This repository defines the MCDC as the root of a complete research programme.  
 Each branch lives in its own repository.
+
+→ A detail almost nobody asks about: from Argentina we never see a part of the sky, we do not know the important stars of the north. The Egyptians, Mayans, etc., were not "mystical geniuses" nor did they use impossible technology: for example, Orion's Belt passes through the same place half the year, always. It is not that hard to aim at it and align a pyramid if you understand this pattern. ←
