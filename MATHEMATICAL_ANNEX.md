@@ -7,50 +7,36 @@ The MCDC 2.0 model is introduced in the main README as an intuitive geometric re
 - Enable critical evaluation without overloading the main README.
 
 ## 1. Basic geometry of MCDC 2.0
-- Two fixed cones: Polar Cone (north celestial pole) and Crucial Cone (south celestial pole).
-- Dynamic Equatorial Belt (CED): dynamic east–zenith–west arc that represents the apparent motion of the sky.
-- Observer‑centric approach: the origin of the system is the observer on the Earth’s surface.
+- Two fixed cones: Polar Cone (north) and Crucial Cone (south).
+- CED (Cincture Equatorial Dynamic): join of the cones dynamic east–zenith–west arc that represents the apparent motion of the sky. 
+- Observer‑centric approach: in this case the origin of the system is the observer on the Earth’s surface.
 
-### 1.1 Cones in spherical coordinates
-- Spherical coordinates \((r, \theta, \varphi)\) with:
-  - \(\theta\): polar angle (celestial latitude).
-  - \(\varphi\): azimuth angle (celestial longitude).
-- Idealized cone:
-  - \(\theta = \theta_0\) defines the cone opening.
-- Special cases:
-  - Polar Cone: \(\theta = \theta_{\text{north}}\).
-  - Crucial Cone: \(\theta = \theta_{\text{south}}\).
-
-### 1.2 Cones in classical conical form
+### 1.1 Cones in classical conical form
 In cylindrical or Cartesian coordinates a cone can be written as:
 - \(r = h \tan(\alpha)\), where:
   - \(h\): height from the vertex (celestial pole).
   - \(\alpha\): opening angle.
   - \(r\): radius of the section at height \(h\).
 
-## 2. Dynamic Equatorial Belt (CED)
-The CED is modeled as an arc on a sphere of radius \(R\).
+### 2. Diameter of the CED
 
-### 2.1 Temporal parametrization
-- Angular position:
-  \[
-  \varphi(t) = \omega t + \varphi_0
-  \]
-  where:
-  - \(\omega\): angular velocity of rotation (≈ \(2\pi / 23.934\,\text{h}\)).
-  - \(\varphi_0\): initial phase (position at \(t = 0\)).
+The CED defines the observable limit of the sky in the east–west direction. Its angular extent is fixed by the celestial equator, but its physical scale is determined by the most distant objects visible at the extremes.
 
-- Planar representation:
-  \[
-  x(t) = R \cos(\omega t + \varphi_0), \quad
-  y(t) = R \sin(\omega t + \varphi_0)
-  \]
+Let \(d_{\text{max}}\) be the maximum observable distance toward the east (or west). Then the diameter of the CED is:
 
-### 2.2 CED layers
-The model admits concentric layers:
-- Inner layer: Sun, Moon and planets.
-- Middle layer: zodiac constellations or other relevant bands.
-- Outer layer: stellar background.
+\[
+D_{\text{CED}} = 2 \cdot d_{\text{max}}
+\]
+
+This value represents the maximum separation between two observable points in opposite directions along the celestial equator.
+
+In the context of the MCDC, \(d_{\text{max}}\) corresponds to the distance of the farthest star or galaxy detectable near the eastern and western horizons. The CED diameter becomes a fundamental geometric parameter of the observable universe.
+
+From this, other quantities can be derived, such as:
+
+- The **radius of the observable universe** \(R_u \approx d_{\text{max}}\).
+- The **volume** of the observable region.
+- The **scale** for computational limits (as used in the P vs NP argument).
 
 ## 3. Precession of the poles
 To reflect that the celestial poles are not strictly fixed:
