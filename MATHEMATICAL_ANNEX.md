@@ -13,9 +13,9 @@ The MCDC 2.0 model is introduced in the main README as an intuitive geometric re
 
 ### 1.1 Cones in classical conical form
 In cylindrical or Cartesian coordinates a cone can be written as:
-- \(r = h \tan(\alpha)\), where:
+- r = h tan(α), where:
   - \(h\): height from the vertex (celestial pole).
-  - \(\alpha\): opening angle.
+  - (α): opening angle.
   - \(r\): radius of the section at height \(h\).
 
 ### 2. Diameter of the CED
@@ -24,8 +24,8 @@ The CED defines the observable limit of the sky in the east–west direction. It
 
 Let \(d_{\text{max}}\) be the maximum observable distance toward the east (or west). Then the diameter of the CED is:
 
-\[
-D_{\text{CED}} = 2 \cdot d_{\text{max}}
+\[   
+D_{\text{CED}} = 2 \cdot d_{\text{max}}   
 \]
 
 This value represents the maximum separation between two observable points in opposite directions along the celestial equator.
