@@ -25,7 +25,7 @@ The same logic applies to any system:
 
 | Domain                | Hidden fixed point                                        | Dynamic system                        |
 |------------------------|----------------------------------------------------------|----------------------------------------|
-| Night sky         | Celestial poles (north / south)                             | Stars rotating (CED)                |
+| Night sky         | Polar Cones (north / south)                             | Stars rotating (CED)                |
 | Computational complexity | Physical limits of the universe (time, energy, entropy) | NP problems that explode exponentially |
 | AI systems         | System Prompt / hidden axioms                          | Observable behaviour of the model   |
 | Sports markets    | Real odds (hidden signal)                               | Fluctuation of quotes and results     |
