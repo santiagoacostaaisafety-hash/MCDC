@@ -14,7 +14,7 @@ The MCDC 2.0 model is introduced in the main README as an intuitive geometric re
 ### 1.1 Cones in classical conical form
 In cylindrical or Cartesian coordinates a cone can be written as:
 - $r$ = $h$ tan(α), where:
-  - $h$: height from the vertex (celestial pole).
+  - $h$: height from the vertex.
   - α: opening angle.
   - $r$: radius of the section at height $h$.
 
